@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #b43718;
+    border-bottom-color: #eb3507;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#spinnerContainer {
+    background-color: black;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+#tableContainer {
+    padding: 20px;
+    background-color: black;
+    font-size: 16;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+#paginationContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+body {
+    background-color: #000 !important;
+    color: #fff;
+}
+
+.form-control {
+    background-color: #b1b1b11c !important; 
+    color: #ffffff !important; 
+  }
+  
+  
+  .pagination {
+    background-color: #b1b1b11c !important; 
+    color: #ffffff !important; 
+  }
